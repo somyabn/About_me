@@ -1,0 +1,52 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.content_footer,
+.somya_heading,
+.somya_intro {
+  text-align: center;
+}
+.somya
+{
+padding: 6em 0;
+background-image:url('https://unsplash.com/photos/9jYj32TN9Ts/download');
+  background-size: cover;
+  background-repeat: no-repeat;  
+
+  border-top: solid 1em #FFCF33;
+}   
+.somya_intro {
+    margin-bottom: 0.1em;
+}
+.somya_heading {
+  margin-top: -0.2em;
+}
+.content_footer,
+.introduction_section,
+.location_section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.social > li {
+    display: inline-block;
+}
+.somya_intro {
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.somya_heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
