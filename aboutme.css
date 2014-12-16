@@ -1,6 +1,6 @@
 body {
     /* Typography Declarations */
-    color: #222222;
+    color: #111111;
     font-size: 1em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -9,12 +9,13 @@ body {
 .somya_intro {
   text-align: center;
 }
+.photos{margin-left:auto}
 .somya
 {
-padding: 11em 0;
+padding: 9em 0;
 background-image:url('https://unsplash.com/photos/9jYj32TN9Ts/download');
-  background-size: cover;
-  background-repeat: no-repeat;  
+background-size: cover;
+background-repeat: no-repeat;  
 
   border-top: solid 1em #FFCF33;
 }   
@@ -27,14 +28,16 @@ background-image:url('https://unsplash.com/photos/9jYj32TN9Ts/download');
 .content_footer,
 .introduction_section,
 .location_section,
-.questions_section {
+.questions_section ,
+.Projects
+{
     max-width: 38em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
 }
-
-.social > li {
+.social > li,
+ {
     display: inline-block;
 }
 .somya_intro {
@@ -63,3 +66,5 @@ background-image:url('https://unsplash.com/photos/9jYj32TN9Ts/download');
 
     }
 }
+
+
